@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="refresh" content="20" >
 	<title>OnePageLight</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<header>
-		<img src="#" alt = "SAGE"/>
-		<ul>
-			<li><a href="#" active>Home</a></li>
-			<li><a href="#">Projects</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Get in Touch</a></li>
-		</ul>
+		<img src="img/logo.svg" alt = "SAGE"/>
+		<nav class = "topNav">
+			<ul>
+				<li><a href="#" active>Home</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Get in Touch</a></li>
+			</ul>
+		</nav>	
 		<ul>
 			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -25,22 +30,22 @@
 	<main>
 		<section>
 			<ul>
-				<li class = "active">
-					<h1>We build websites and apps that people love</h1>
-					<b>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</b>
-					<a href="#">Explore More</a>  
+				<li class = "hero">
+						<h1>We build websites and apps that people love</h1>
+						<b>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</b>
+						<a href="#">Explore More</a> 
 				</li>
-				<li>
+				<li class = "hidden">
 					<h1>NavHead1</h1>
 					<b>NavHead1 placholder text</b>
 					<a href="#">Explore More</a>  
 				</li>
-				<li>
+				<li class = "hidden">
 					<h1>NavHead3</h1>
 					<b>NavHead3 placholder text</b>
 					<a href="#">Explore More</a>  
 				</li>
-				<li>
+				<li class = "hidden">
 					<h1>NavHead4</h1>
 					<b>NavHead4 placholder text</b>
 					<a href="#">Explore More</a>  
@@ -55,14 +60,14 @@
 		</section>
 
 <!--Highlighed Projects ***************************-->
-		<section>
+		<section class = "highProj cf">
 
 			<p>Current site section contains general information about our latest projects. We are focusing on website and mobile development, UI/UX and branding</p>
 			<h2>Highligted Projects</h2>
 			<ul>
-		         	<li><img src="#"/></li>
-		         	<li><img src="#"/></li>
-		         	<li><img src="#"/></li>
+		         	<li><img src="img/Tesla_320.png"/></li>
+		         	<li><img src="img/RevMech_320.png"/></li>
+		         	<li><img src="img/Enso_320.png"/></li>
 		    </ul>
 			<a href="#">Discover More</a>
 			<p> &lowast; Site contains some recent projects. Detailed portfolio available upon request</p>
@@ -70,16 +75,15 @@
 
 <!--Featured Slider************************************ -->
 		
-		<section>
+		<section class = "infinity">
 			<ul>
 				<li>
-					<img src="#" alt = "Perversos Poliformos"/>
 					<h3>Featured</h3>    
 					<h2>Infinity Spaces</h2>
 					<p>Our self-initiated project.</p>
 					<p>Infinity &infin; is an abstract concept describing something without any limit and is relevant in a number of fields</p>		
 				</li>
-				<li>
+				<li class = "hidden">
 					<img src="Placeholder.jpg" alt = "Placeholder"/>
 					<h3>Placeholder</h3>
 					<h2>TitlePlaceholder</h2>
@@ -108,24 +112,24 @@
 				Racy challenge listen better go light tasting aromatic thick. Think touch spring now jumbo secret deserve thank-you seeing out. Supreme luscious agree monster economical makes delivers tummy absorbent incredible can quick. Clean shine product sweet choosy need golden.
 			</p>
 			<a href="#">Explore More</a>
-			<img src = "#" alt = "SAGE">
+			<img src = "img/largeSage.svg" alt = "SAGE">
 
 	<!-- Zero Counters: Light 3 Columns**********************************-->
 		
 			<footer>
 				<ul>
 					<li>
-						<img src="#">
+						<img src="img/archive2.svg">
 						<h2>2180</h2>
 						<p>Finished Projects</p>
 					</li>
 					<li>
-						<img src="#">
+						<img src="img/iPhone.svg">
 						<h2>105870</h2>
 						<p>Mobile Screens Designed</p>
 					</li>
 					<li>
-						<img src="#">
+						<img src="img/open letter.svg">
 						<h2>345850</h2>
 						<p>Emails Sent</p>
 					</li>
@@ -136,36 +140,36 @@
 
 	<!--  Services 3 Columns ******************************* -->
 
-		<section>
+		<section class = "services">
 			<h2>Services</h2>
 			<ul>
 				<li>
-					<img src = "#">
+					<img src = "img/copy.svg">
 					<h4>Exclusive and Flexible Theme</h4>
 					<p>Brilliant elegant club guests first-class. To gilded in crafted regal. Suite using crafted for wealth topiary. Wealth gold career de-jour left pedigree panoramic designer.</p>
 				</li>
 				<li>
-					<img src = "icon2.svg">
+					<img src = "img/browser.svg">
 					<h4>Material and Retina design</h4>
 					<p>Warm clean bold. World's permanent a any this rosy multi-purpose. Magically fat-free deeply remarkable amazing wherever easily much spicey simulated ideal UI high-tech sensible. </p>
 				</li>
 				<li>
-					<img src = "icon3.svg">
+					<img src = "img/lifesaver.svg">
 					<h4>Friendly Customer Support</h4>
 					<p>Yourself perfect plus parents pop-top people never price ordinary fat-free now. Advanced quick handcrafted flavored roasted survey triple economical smart. Sharpest refreshing brand.</p>
 				</li>
 				<li>
-					<img src = "icon4.svg">
+					<img src = "img/iMac.svg">
 					<h4>Engaging UI/UX Designs</h4>
 					<p>Brand magically to real smells traditional mild each valuable. Credit-card but a customer red feedback bonus effective takes. Works ideal price juicy plush millions desire great clean market ready product.</p>
 				</li>
 				<li>
-					<img src = "icon5.svg">
+					<img src = "img/heart.svg">
 					<h4>Hand-crafted with love</h4>
 					<p>Perfect desire and don't newest splash more if perfect asked mega. Catch racy surrender most like wealth. Dual artificial cheap advertising vast opportunity. Space deluxe idel UI and UX clean mountain as.</p>
 				</li>
 				<li>
-					<img src = "icon1.svg">
+					<img src = "img/pic.svg">
 					<h4>Fully Responsive and Flexible Design</h4>
 					<p>Smart messy lost register squeezable a. Tropical ordinary youthful elegent comfort terrific. Sleek herbal all-over a spectacular kids. Desire picky happy style to. Satisfied compare mothers fast spicey dry longer.</p>
 				</li>
@@ -174,14 +178,14 @@
 
 	<!-- Call to Action Area *************************** -->
 
-		<section>
+		<section class = "callToAction">
 			<ul>
 				<li>
 					<h3>This is a call to action area</h3>
 					<p>You can use current block to place some important information</p>
 					<a href="#">Purchase SAGE Right Now</a>
 				</li>
-				<li>
+				<li class = "hidden">
 					<h3>Showcasing your work has never been more fun</h3>
 					<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
 					<a href="#">Purchase SAGE Right Now</a>
@@ -194,18 +198,21 @@
 		<section>
 			<h2>Journal</h2>
 			<article>
+				<img src="img/flexMulti.png">
 				<h4>News</h4> 
 				<h3>Flexible Multi concept portfolio theme</h3>
 				<p>Spicey available value bonus satisfied every limited register. Permanent tough flexible what take mouthwatering. Bigger made quick flexible so guaranteed most open try compact inside.</p> 
 				<a href="#">Explore More</a>
 			</article>
 			<article>
+				<img src="img/handCrafted.png">
 				<h4>Technology</h4> 
 				<h3>Hand Crafted with love</h3>
 				<p>Choice vibrant handcrafted agree compare squeezable spicey vibrant. Our silky newer polished it's confident all lather sold deal class love. Lower to agree quenches dry will. A quickly much discover keeps.</p> 
 				<a href="#">Explore More</a>
 			</article>
 			<article>
+				<img src="img/ExclusiveandVery.png">
 				<h4>Life, News</h4> 
 				<h3>Exclusive and Very Flexible theme Ever</h3>
 				<p>Whiter guaranteed to sensible stimulates flip choose quickly warranty oily buy money. Pennies quenches polished. Believe neat bigger satisfying awesome natural spectacular healthy deeply.</p> 
@@ -234,36 +241,36 @@
 
 	   	<!--Slider navigation for bottom-->
 	   		<ul>
-	   			<li><a href="#" id = "quoteOne" active></li>
-	   			<li><a href="#" id = "quoteTwo"></li>
-	   			<li><a href="#" id = "quoteThree"></li>
+	   			<li><a href="#" class = "active"></li>
+	   			<li><a href="#"></li>
+	   			<li><a href="#"></li>
 	   		</ul>
 	   </section>
 
    <!-- Logo Sliders ************************ -->
 
-	   <section>
+	   <section class = "iconsBottom">
 	   		<ul>
 	   			<li>
-	   				<a href="#"><img src="connecto.svg"></a>
+	   				<a href="#"><img src="img/Connecto_170_150.svg"></a>
 	   			</li>
 	   			<li>
-	   				<a href="#"><img src="fr.svg"></a>
+	   				<a href="#"><img src="img/fr.svg"></a>
 	   			</li>
 	   			<li>
-	   				<a href="#"><img src="university.svg"></a>
+	   				<a href="#"><img src="img/University.svg"></a>
 	   			</li>
 	   			<li>
-	   				<a href="#"><img src="bigD.svg"></a>
+	   				<a href="#"><img src="img/directLogo.svg"></a>
 	   			</li>
 	   			<li>
-	   				<a href="#"><img src="SAGE.svg"></a>
+	   				<a href="#"><img src="img/SAGE_170_150.svg"></a>
 	   			</li>
 	   			<li>
-	   				<a href="#"><img src="bigUI.svg"></a>
+	   				<a href="#"><img src="img/UI_170_150.svg"></a>
 	   			</li>
 	   		</ul>
-	   		<ul>
+	   		<ul class = "hidden">
 	   			<li>
 	   				<a href="#"><img src="logo7.svg"></a>
 	   			</li>
